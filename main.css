@@ -1,0 +1,71 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body{
+  background-color: #233b5a;
+}
+.container{
+  margin-top: 80px;
+}
+.ar{
+  text-align: center;
+  color: #eee;
+  font-size: 14px;
+}
+.face-icon{
+  text-align: center;
+  padding-top: 20px;
+}
+.face-icon img{
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
+.form{
+  text-align: center;
+  padding-top: 30px;
+  padding-bottom: 10px;
+}
+.input-email, .input-password{
+  border: 1px solid #647884;
+  border-radius: 4px;
+  width: 260px;
+  height: 35px;
+  padding: 5px;
+  color: white;
+  background-color: #64788433;
+}
+.log-in{
+  color: white;
+  background-color: #0164de;
+  border: 1px solid #0164de;
+  border-radius: 3px;
+  width: 260px;
+  height: 39px;
+}
+.input-email,
+.input-password,
+.log-in,
+.reset-password {
+  margin-top: 15px;
+}
+.reset-password{
+  text-align: center;
+  color: white;
+  font-size: 12px;
+}
+.reset-password a {
+  text-decoration: none;
+  color: white;
+}
+.sign-in{
+  width: 260px;
+  border: 1px solid #fff;
+  border-radius: 3px;
+  background-color: #647884;
+  margin-top: 50px;
+  color: black;
+  height: 29px;
+}
